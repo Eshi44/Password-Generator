@@ -10,10 +10,19 @@ var charSet = "";
 
 
 // Write generator function
-function generatePassword() {
+function generatePassword() 
+
+{
  
     var length = prompt("How many characters long would you like your password to be? Enter a number between 3 and 9"); 
     //console.log(length);
+
+    // Write special character prompt
+    var userInputSpecial = confirm("Would you like to use special characters?"); 
+   
+    if (userInputSpecial) {
+        charSet +=specialChar;
+      } 
   
 // Write password to the #password input
 function writePassword(){ 
