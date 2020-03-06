@@ -20,5 +20,8 @@ function writePassword(){
     var passwordText = document.querySelector("#password");
     passwordText.value = password;
 } 
+var length = prompt("How many characters long would you like your password to be? Enter a number between 3 and 9"); 
+//console.log(length);
+
 
 generateBtn.addEventListener("click", writePassword); 
