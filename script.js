@@ -23,6 +23,14 @@ function generatePassword()
     if (userInputSpecial) {
         charSet +=specialChar;
       } 
+
+    // Write number character confirm
+    var userInputNumber = confirm("Would you like to use numbers?"); 
+    
+    if (userInputNumber ) {
+       charSet +=numberChar;
+      }
+
   
 // Write password to the #password input
 function writePassword(){ 
