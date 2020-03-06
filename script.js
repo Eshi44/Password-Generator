@@ -31,6 +31,12 @@ function generatePassword()
        charSet +=numberChar;
       }
 
+    // Write uppercase character confirm
+    var userInputUpper = confirm("Would you like to use uppercase characters?");
+
+    if (userInputUpper) {
+        charSet +=upperChar;
+      }
   
 // Write password to the #password input
 function writePassword(){ 
