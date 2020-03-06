@@ -28,7 +28,7 @@ function generatePassword()
     var userInputNumber = confirm("Would you like to use numbers?"); 
     
     if (userInputNumber ) {
-       charSet +=numberChar;
+        charSet +=numberChar;
       }
 
     // Write uppercase character confirm
@@ -37,6 +37,12 @@ function generatePassword()
     if (userInputUpper) {
         charSet +=upperChar;
       }
+
+    // Write lowercase character confirm
+    var userInputLow = confirm("Would you like to use lowercase characters?"); 
+    if (userInputLow) {
+        charSet +=lowChar;
+    }
   
 // Write password to the #password input
 function writePassword(){ 
