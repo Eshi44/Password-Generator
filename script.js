@@ -43,6 +43,15 @@ function generatePassword()
     if (userInputLow) {
         charSet +=lowChar;
     }
+
+    for (var i=0; i < length; i++) {
+        var rdnum = (Math.floor(Math.random() *charSet.length));
+        randomPass += charSet.substring(rdnum, rdnum+1);
+
+    //console.log(password);
+    //console.log(charSet);
+    //console.log(length);
+ 
   
 // Write password to the #password input
 function writePassword(){ 
