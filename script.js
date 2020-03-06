@@ -51,7 +51,10 @@ function generatePassword()
     //console.log(password);
     //console.log(charSet);
     //console.log(length);
- 
+    }
+    return randomPass;
+}
+
   
 // Write password to the #password input
 function writePassword(){ 
