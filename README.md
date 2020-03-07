@@ -2,7 +2,7 @@
 
 This browser-based app will randomly generate a password based on user-selected criteria. 
 
-![](Password-Generator-Image.PNG)
+![](Password-Generator-Image.png)
 
 Once a user clicks the button to generate a new password, the user is prompted for information regarding the password's criteria. 
 The user is asked the length of the of the password and is then asked to confirm if they would like to include special characters, numbers, lowercase characters, and uppercase characters. 
