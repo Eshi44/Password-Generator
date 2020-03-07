@@ -2,6 +2,12 @@
 
 This browser-based app will randomly generate a password based on user-selected criteria. 
 
+!(images\Password-Generator-Image.PNG)
+
+Once a user clicks the button to generate a new password, the user is prompted for information regarding the password's criteria. 
+The user is asked the length of the of the password and is then asked to confirm if they would like to include special characters, numbers, lowercase characters, and uppercase characters. 
+Based on the criteria submitted, a random password is generated within the text box.
+
 ## User Story
 
 ```
@@ -12,9 +18,11 @@ SO THAT I can create a strong password that provides greater security
 
 ## Improvements
 
-## Acceptance Criteria
+One major improvement would be to add a reset function, so if the user would like to generate another password, the previously generated password would reset. As of now, the generated password does not reset and the user woukd have to refresh the page. 
+Another 'improvement' could be to alert the user of which criteria they selected before the password generates, but this could also be redundant for the user.
 
-```
+
+
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
